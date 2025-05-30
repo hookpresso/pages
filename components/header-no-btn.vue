@@ -5,8 +5,8 @@
         <nuxt-link to="/" class="header-no-btn-navlink">
           <div class="header-no-btn-left">
             <img
-              alt="Money Beavers logo"
-              src="/beavers_full.svg"
+              alt="Money Beavers Logo"
+              src="~/static/beavers_full.svg"
               class="header-no-btn-logo"
             />
             <div class="header-no-btn-links">

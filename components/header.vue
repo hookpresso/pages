@@ -6,7 +6,7 @@
           <div class="header-left">
             <img
               alt="Money Beavers Logo"
-              src="/beavers_full.svg"
+              src="~/static/beavers_full.svg"
               class="header-logo"
             />
             <div class="header-links">

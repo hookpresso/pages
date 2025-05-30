@@ -47,7 +47,7 @@
         <div class="home-outline">
           <img
             alt="Beavers.money money tracker app dashboard showing easy expense tracking and budget overview"
-            src="/hero_banner1-800h.png"
+            src="~/static/hero_banner1-800h.png"
             loading="lazy"
             class="home-image1"
           />
@@ -57,23 +57,21 @@
     <section class="home-features">
       <div class="home-title">
         <span class="home-text19">
-          <span>Let’s Track Smarter, Build Wealth Faster</span>
+          <span>Let's Track Smarter, Build Wealth Faster</span>
           <br />
         </span>
         <span class="home-text22">
-          Money Beavers’ AI sweeps your inbox, extracts every transaction, and
+          Money Beavers' AI sweeps your inbox, extracts every transaction, and
           auto‑categorizes spending—so you can focus on growing your net worth
         </span>
       </div>
       <div class="home-cards">
         <div class="home-container2">
           <div class="home-schedule card">
-            <script setup>
-              const icon-spending = useAsset('/static/icon-spending.svg')
-            </script>
 
 
-            <img alt="pastedImage" :src="icon-spending" class="home-icon1" />
+
+            <img alt="pastedImage" src="~/static/icon-spending.svg" class="home-icon1" />
             <span class="home-text23">See Your Spending</span>
             <span class="home-text24">
               Get a clear view of all your transactions, organized in one place—no
@@ -81,7 +79,7 @@
             </span>
           </div>
           <div class="home-publish card">
-            <img alt="pastedImage" src="/icon-automate.svg" class="home-icon2" />
+            <img alt="pastedImage" src="~/static/icon-automate.svg" class="home-icon2" />
             <span class="home-text25">
               <span>Automated Categorization</span>
               <br />
@@ -97,7 +95,7 @@
         </div>
         <div class="home-container3">
           <div class="home-analyze card">
-            <img alt="pastedImage" src="/icon-report.svg" class="home-icon3" />
+            <img alt="pastedImage" src="~/static/icon-report.svg" class="home-icon3" />
             <span class="home-text31">
               <span>Monthly Reports</span>
               <br />
@@ -108,7 +106,7 @@
             </span>
           </div>
           <div class="home-get-leads card">
-            <img alt="pastedImage" src="/icon-money.svg" class="home-icon4" />
+            <img alt="pastedImage" src="~/static/icon-money.svg" class="home-icon4" />
             <span class="home-text35">
               <span>Track Your Budget</span>
               <br />
@@ -124,9 +122,9 @@
     <section class="home-quote-container">
       <div class="home-quote1">
         <span class="home-message">
-          “Scale your content, grew lorem ipsum dolor sit amet, consectetur
+          "Scale your content, grew lorem ipsum dolor sit amet, consectetur
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.”
+          magna aliqua."
         </span>
         <div class="home-author">
           <img
@@ -154,7 +152,7 @@
               Effortless Expense Tracking, Smarter Wealth‑Building
             </span>
             <span class="home-text45">
-              Money Beavers’ AI sweeps your inbox, extracts every transaction, and
+              Money Beavers' AI sweeps your inbox, extracts every transaction, and
               auto‑categorizes spending—so you can focus on growing your net
               worth.
             </span>
@@ -165,7 +163,7 @@
             </nuxt-link>
           </div>
           <div class="home-image-container1">
-            <img alt="pastedImage" src="/testtb.svg" class="home-cards-image1" />
+            <img alt="pastedImage" src="~/static/testtb.svg" class="home-cards-image1" />
           </div>
         </div>
       </div>
@@ -174,7 +172,7 @@
           <div class="home-image-container2">
             <img
               alt="pastedImage"
-              src="/hero_banner1-800h.png"
+              src="~/static/hero_banner1-800h.png"
               class="home-cards-image2"
             />
           </div>
@@ -217,7 +215,7 @@
           <div class="home-image-container3">
             <img
               alt="pastedImage"
-              src="/filter-600w.png"
+              src="~/static/filter-600w.png"
               class="home-cards-image3"
             />
           </div>
@@ -228,7 +226,7 @@
           <div class="home-image-container4">
             <img
               alt="pastedImage"
-              src="/relu-600w.png"
+              src="~/static/relu-600w.png"
               class="home-cards-image4"
             />
           </div>
@@ -270,7 +268,7 @@
           <div class="home-container7">
             <img
               alt="pastedImage"
-              src="/workspace1-200h.png"
+              src="~/static/workspace1-200h.png"
               class="home-pasted-image1"
             />
           </div>
@@ -291,7 +289,7 @@
             </div>
             <img
               alt="pastedImage"
-              src="/permission1-600h.png"
+              src="~/static/permission1-600h.png"
               class="home-pasted-image2"
             />
           </div>
@@ -305,7 +303,7 @@
             </div>
             <img
               alt="pastedImage"
-              src="/geminiapi1-600h.png"
+              src="~/static/geminiapi1-600h.png"
               class="home-pasted-image3"
             />
           </div>
@@ -322,52 +320,52 @@
           <app-testimonal
             from="April 28, 2025"
             name="Linh Tran"
-            quote="“I clung to Mint for years, but moving to Money Beavers was a breeze. My custom Excel budget took two hours to port, and now daily email digests keep everything in sync automatically—no bank logins required.”"
-            avatarSrc="/image552912-e3yq-200h.png"
+            quote="I clung to Mint for years, but moving to Money Beavers was a breeze. My custom Excel budget took two hours to port, and now daily email digests keep everything in sync automatically—no bank logins required."
+            avatarSrc="~/static/image552912-e3yq-200h.png"
           ></app-testimonal>
           <app-testimonal
             from="May 17, 2025"
             name="Jessica Smith"
-            quote="“Money Beavers gives me clarity in two ways: first, it pulls receipts from six different inboxes into one live sheet; second, the community templates let me slice spending any way I like. Way more control than other trackers.”"
-            avatarSrc="/image312912-mvsg-200h.png"
+            quote="Money Beavers gives me clarity in two ways: first, it pulls receipts from six different inboxes into one live sheet; second, the community templates let me slice spending any way I like. Way more control than other trackers."
+            avatarSrc="~/static/image312912-mvsg-200h.png"
           ></app-testimonal>
           <app-testimonal
             from="March 17, 2025"
             name="Logan Boy"
             quote="After years of juggling CSV exports, Money Beavers finally makes my spreadsheet‑first habit effortless. New add‑ons keep showing up—recurring‑expense tracker, cash‑flow charts—and each one just plugs in."
-            avatarSrc="/image502912-6wy-200h.png"
+            avatarSrc="~/static/image502912-6wy-200h.png"
           ></app-testimonal>
           <app-testimonal
             from="March 15, 2025"
             name="Laraine Summers"
-            quote="“Money Beavers finally shows where our cash really goes. Next step: proactive budgeting. The docs are clear, and the user forum is buzzing with tips. Highly recommend giving it a spin.”"
-            avatarSrc="/image202912-zekh-200h.png"
+            quote="Money Beavers finally shows where our cash really goes. Next step: proactive budgeting. The docs are clear, and the user forum is buzzing with tips. Highly recommend giving it a spin."
+            avatarSrc="~/static/image202912-zekh-200h.png"
           ></app-testimonal>
         </div>
         <div class="home-column2">
           <app-testimonal
-            from="April 24, 2025"
+            from="April 24, 2025"
             name="Marcus Nguyen"
-            quote="“Money Beavers gives me clarity in two ways: first, it pulls receipts from six different inboxes into one live sheet; second, the community templates let me slice spending any way I like. Way more control than other trackers.”"
-            avatarSrc="/image572912-0d3-200h.png"
+            quote="Money Beavers gives me clarity in two ways: first, it pulls receipts from six different inboxes into one live sheet; second, the community templates let me slice spending any way I like. Way more control than other trackers."
+            avatarSrc="~/static/image572912-0d3-200h.png"
           ></app-testimonal>
           <app-testimonal
             from="April 24, 2025"
             name="Mariah Mae"
-            quote='"The auto‑tagging is scarily accurate. Monthly and annual summaries update themselves, so I ditched my manual Sheets workflow. If you love spreadsheets but hate copy‑paste drudgery, this is it."'
-            avatarSrc="/image632913-swij-200h.png"
+            quote="The auto‑tagging is scarily accurate. Monthly and annual summaries update themselves, so I ditched my manual Sheets workflow. If you love spreadsheets but hate copy‑paste drudgery, this is it."
+            avatarSrc="~/static/image632913-swij-200h.png"
           ></app-testimonal>
           <app-testimonal
             from="March 11, 2025"
             name="John Finati"
-            quote="“With Mint gone, I worried about losing my budgets, but Money Beavers is ten times better. Envelope budgets, net‑worth dashboards, subscription alerts—everything lives in Google Sheets, and support replies within hours.”"
-            avatarSrc="/image102913-x4z8-200h.png"
+            quote="With Mint gone, I worried about losing my budgets, but Money Beavers is ten times better. Envelope budgets, net‑worth dashboards, subscription alerts—everything lives in Google Sheets, and support replies within hours."
+            avatarSrc="~/static/image102913-x4z8-200h.png"
           ></app-testimonal>
           <app-testimonal
-            from="March 11, 2025"
+            from="March 11, 2025"
             name="Mary Pau"
-            quote='"Testing Money Beavers has been eye‑opening. The transaction sheet is easier to filter than any app I’ve tried, and the morning email recap keeps me honest about yesterday’s spending."'
-            avatarSrc="/image562913-ycff-200h.png"
+            quote="Testing Money Beavers has been eye‑opening. The transaction sheet is easier to filter than any app I've tried, and the morning email recap keeps me honest about yesterday's spending."
+            avatarSrc="~/static/image562913-ycff-200h.png"
           ></app-testimonal>
         </div>
       </div>
@@ -396,7 +394,7 @@
           </nuxt-link>
         </div>
         <div class="home-images">
-          <img alt="image" src="/table2-600h.png" class="home-image2" />
+          <img alt="image" src="~/static/table2-600h.png" class="home-image2" />
         </div>
       </div>
     </section>

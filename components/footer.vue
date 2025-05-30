@@ -5,7 +5,7 @@
         <nuxt-link to="/" class="footer-navlink1">
           <img
             alt="Money Beaver Logo"
-            src="/beavers_w.svg"
+            src="~/static/beavers_w.svg"
             class="footer-branding"
           />
         </nuxt-link>
