@@ -1,22 +1,4 @@
-
-
 <template>
-  <script>
-  // import { useAsset } from '#imports'
-
-  const iconSpending = useAsset('/static/icon-spending.svg');
-  const iconAutomate = useAsset('/static/icon-automate.svg');
-  const iconReport = useAsset('/static/icon-report.svg');
-  const iconMoney = useAsset('/static/icon-money.svg');
-  const heroBanner = useAsset('/static/hero_banner1-800h.png');
-  const testTb = useAsset('/static/testtb.svg');
-  const filter = useAsset('/static/filter-600w.png');
-  const relu = useAsset('/static/relu-600w.png');
-  const workspace = useAsset('/static/workspace1-200h.png');
-  const permission = useAsset('/static/permission1-600h.png');
-  const geminiApi = useAsset('/static/geminiapi1-600h.png');
-  const table2 = useAsset('/static/table2-600h.png');
-  </script>
   <div>
     <app-header
       logoSrc="/beavers_full.svg"
