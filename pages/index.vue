@@ -1,22 +1,22 @@
 
 
 <template>
-  <script setup>
-// import { useAsset } from '#imports'
+  <script>
+  // import { useAsset } from '#imports'
 
-const iconSpending = useAsset('/icon-spending.svg')
-const iconAutomate = useAsset('/icon-automate.svg')
-const iconReport = useAsset('/icon-report.svg')
-const iconMoney = useAsset('/icon-money.svg')
-const heroBanner = useAsset('/hero_banner1-800h.png')
-const testTb = useAsset('/testtb.svg')
-const filter = useAsset('/filter-600w.png')
-const relu = useAsset('/relu-600w.png')
-const workspace = useAsset('/workspace1-200h.png')
-const permission = useAsset('/permission1-600h.png')
-const geminiApi = useAsset('/geminiapi1-600h.png')
-const table2 = useAsset('/table2-600h.png')
-</script>
+  const iconSpending = useAsset('/static/icon-spending.svg');
+  const iconAutomate = useAsset('/static/icon-automate.svg');
+  const iconReport = useAsset('/static/icon-report.svg');
+  const iconMoney = useAsset('/static/icon-money.svg');
+  const heroBanner = useAsset('/static/hero_banner1-800h.png');
+  const testTb = useAsset('/static/testtb.svg');
+  const filter = useAsset('/static/filter-600w.png');
+  const relu = useAsset('/static/relu-600w.png');
+  const workspace = useAsset('/static/workspace1-200h.png');
+  const permission = useAsset('/static/permission1-600h.png');
+  const geminiApi = useAsset('/static/geminiapi1-600h.png');
+  const table2 = useAsset('/static/table2-600h.png');
+  </script>
   <div>
     <app-header
       logoSrc="/beavers_full.svg"
