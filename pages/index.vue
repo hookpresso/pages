@@ -68,7 +68,7 @@
       <div class="home-cards">
         <div class="home-container2">
           <div class="home-schedule card">
-            <img alt="pastedImage" src=useAsset("/icon-spending.svg") class="home-icon1" />
+            <img alt="pastedImage" :src=useAsset('/icon-spending.svg') class="home-icon1" />
             <span class="home-text23">See Your Spending</span>
             <span class="home-text24">
               Get a clear view of all your transactions, organized in one place—no
