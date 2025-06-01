@@ -119,7 +119,7 @@
         </div>
       </div>
     </section>
-    <section class="home-quote-container">
+    <!-- <section class="home-quote-container">
       <div class="home-quote1">
         <span class="home-message">
           "Scale your content, grew lorem ipsum dolor sit amet, consectetur
@@ -138,7 +138,7 @@
           </span>
         </div>
       </div>
-    </section>
+    </section> -->
     <section class="home-statistics"><div class="home-container4"></div></section>
     <section class="home-banners">
       <div class="home-banner-manage">
@@ -278,13 +278,8 @@
             <div class="home-headng2">
               <span class="home-text65">2 — Connect Your Gmail™</span>
               <span class="home-text66">
-                <span>
                   Grant secure permission so Money Beavers can scan your inbox for
                   receipts, bills, and transaction-related emails.
-                </span>
-                <br />
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. vv
               </span>
             </div>
             <img
@@ -321,25 +316,25 @@
             from="April 28, 2025"
             name="Linh Tran"
             quote="I clung to Mint for years, but moving to Money Beavers was a breeze. My custom Excel budget took two hours to port, and now daily email digests keep everything in sync automatically—no bank logins required."
-            avatarSrc="~/static/image552912-e3yq-200h.png"
+            avatarSrc="/image552912-e3yq-200h.png"
           ></app-testimonal>
           <app-testimonal
             from="May 17, 2025"
             name="Jessica Smith"
             quote="Money Beavers gives me clarity in two ways: first, it pulls receipts from six different inboxes into one live sheet; second, the community templates let me slice spending any way I like. Way more control than other trackers."
-            avatarSrc="~/static/image312912-mvsg-200h.png"
+            avatarSrc="/image312912-mvsg-200h.png"
           ></app-testimonal>
           <app-testimonal
             from="March 17, 2025"
             name="Logan Boy"
             quote="After years of juggling CSV exports, Money Beavers finally makes my spreadsheet‑first habit effortless. New add‑ons keep showing up—recurring‑expense tracker, cash‑flow charts—and each one just plugs in."
-            avatarSrc="~/static/image502912-6wy-200h.png"
+            avatarSrc="/image502912-6wy-200h.png"
           ></app-testimonal>
           <app-testimonal
             from="March 15, 2025"
             name="Laraine Summers"
             quote="Money Beavers finally shows where our cash really goes. Next step: proactive budgeting. The docs are clear, and the user forum is buzzing with tips. Highly recommend giving it a spin."
-            avatarSrc="~/static/image202912-zekh-200h.png"
+            avatarSrc="/image202912-zekh-200h.png"
           ></app-testimonal>
         </div>
         <div class="home-column2">
@@ -347,25 +342,25 @@
             from="April 24, 2025"
             name="Marcus Nguyen"
             quote="Money Beavers gives me clarity in two ways: first, it pulls receipts from six different inboxes into one live sheet; second, the community templates let me slice spending any way I like. Way more control than other trackers."
-            avatarSrc="~/static/image572912-0d3-200h.png"
+            avatarSrc="/image572912-0d3-200h.png"
           ></app-testimonal>
           <app-testimonal
             from="April 24, 2025"
             name="Mariah Mae"
             quote="The auto‑tagging is scarily accurate. Monthly and annual summaries update themselves, so I ditched my manual Sheets workflow. If you love spreadsheets but hate copy‑paste drudgery, this is it."
-            avatarSrc="~/static/image632913-swij-200h.png"
+            avatarSrc="/image632913-swij-200h.png"
           ></app-testimonal>
           <app-testimonal
             from="March 11, 2025"
             name="John Finati"
             quote="With Mint gone, I worried about losing my budgets, but Money Beavers is ten times better. Envelope budgets, net‑worth dashboards, subscription alerts—everything lives in Google Sheets, and support replies within hours."
-            avatarSrc="~/static/image102913-x4z8-200h.png"
+            avatarSrc="/image102913-x4z8-200h.png"
           ></app-testimonal>
           <app-testimonal
             from="March 11, 2025"
             name="Mary Pau"
             quote="Testing Money Beavers has been eye‑opening. The transaction sheet is easier to filter than any app I've tried, and the morning email recap keeps me honest about yesterday's spending."
-            avatarSrc="~/static/image562913-ycff-200h.png"
+            avatarSrc="/image562913-ycff-200h.png"
           ></app-testimonal>
         </div>
       </div>
@@ -394,7 +389,7 @@
           </nuxt-link>
         </div>
         <div class="home-images">
-          <img alt="image" src="~/static/table2-600h.png" class="home-image2" />
+          <img alt="image" src="/table2-600h.png" class="home-image2" />
         </div>
       </div>
     </section>
